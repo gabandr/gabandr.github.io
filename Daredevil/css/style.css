@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+    font-size: 250%;
+}
+
+.container{
+    background-color: maroon;
+    width: 1300px;
+    height: 640px;
+    margin: 50px auto;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+.nav{
+    background-color: #680000;
+    height: 70px;
+    width: 1200px;
+    margin: 50px 0 0 50px;
+    padding-top: 20px;
+}
+
+.nav > a{
+    text-decoration: none;
+    display: inline;
+    padding: 10px 20px 10px 20px;
+    color: LightSlateGray;
+}
+
+.nav > a:hover{
+    color: aliceblue;
+}
+
+.left, .right{
+    height: 440px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    vertical-align: top;
+}
+
+.left{
+    width: 300px;
+    background: url("../img/MV5BODcwOTg2MDE3NF5BMl5BanBnXkFtZTgwNTUyNTY1NjM@._V1_.jpg");
+    background-size: 100%;
+}
+
+.right{
+    width: 840px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #680000;
+}
+
+.right > p{
+    color: lightslategray;
+    font-size: 28px;
+    text-align: justify;
+}
+
+iframe{
+    display: inline-block;
+    margin: 100px 0 0 50px;
+    width: 570px;
+    height: 320px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a > img{
+    margin: 25px 0 0 125px;
+    width: 450px;
+    height: 240px;
+    box-shadow: 10px 10px 15px #000;
+}
+
+.cast{
+    display: inline-block;
+}
+
+.actor{
+    
+    display: inline-block;
+    
+}
+
+.actor > a > img{
+    margin: 50px 0 0 100px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 10px 10px 15px #000;
+}
+
+.actor > p{
+    color: lightslategray;
+    margin: 20px 0 0 100px;
+}
